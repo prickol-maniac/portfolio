@@ -1,0 +1,242 @@
+body{
+	background-image: url(images/bg_day.png);
+	font-family: "gabriola";
+}
+button{
+	font-family: "gabriola";
+}
+header{
+	display: block;
+	width: 100%;
+	height: 350px;
+	background-color: rgba(150, 150, 150, 0.5);
+	background-image: url("images/header_day.png");
+	background-attachment: fixed;
+	position: relative;
+}
+header h1{
+	position: absolute;
+	display: block;
+	text-transform: uppercase;
+	width: 800px; height: 50px;
+	text-align: center;
+	top: 0; bottom: 0; left: 0; right:0;
+	margin: auto;
+	font-size: 70px;
+}
+header h2{
+	position: absolute;
+	display: block;
+	text-transform: uppercase;
+	width: 500px; height: 40px;
+	text-align: center;
+	top: 100px; bottom: 0; left: 0; right:0;
+	margin: auto;
+	font-size: 30px;
+}
+header button{
+	background-color: #09f;
+	color: #000;
+	font-size: 25px;
+	display: inline-block;
+	position: relative;
+	border: none;
+	width: 20%;
+	height: 50px;
+	margin-left: 80%;
+}
+header button:hover{
+	background-color: #fff;
+	color: #09f;
+}
+#menu{
+	background-color: #09f;
+	padding: 0 1%;
+}
+#menu button{
+	display: inline-block;
+	background-color: #09f;
+	height: 80px;
+	color: #000;
+	font-size: 40px;
+	border: none;
+	margin: none;
+	padding: 10px 3%;
+}
+#menu button:hover{
+	background-color: #fff;
+	color: #09f;
+}
+#nday{
+	display: inline-block;
+	position: fixed;
+	z-index: 100;
+}
+#bday{
+	display: none;
+}
+.part{
+	height: auto;
+	display: block;
+	position: relative;
+	margin-bottom: 20px;
+}
+.part h1{
+	text-align: center;
+	font-size: 50px;
+	margin: 30px;
+}
+.part div{
+	width: 45%;
+	vertical-align: top;
+	display: inline-block;
+	position: relative;
+}
+.part img{
+	width: 70%;
+	display: inline-block;
+	position: relative;
+	margin: 25px;
+}
+.part .sticker{
+	display: inline-block;
+	position: relative;
+	width: 20%;
+	margin: 1%;
+	padding: 1%;
+	background-color: #9fe5ff;
+	border: 3px #05f solid;
+}
+.part .sticker .img{
+	display: block;
+	position: relative;
+	width: 100%;
+	height: 100%;
+	border: none !important;
+}
+.img_border{
+	border: 3px #09f solid;
+}
+.part h3{
+	font-size: 40px;
+	margin: 3%;
+	color: black;
+	border-bottom: 1px black solid;
+}
+.part p{
+	font-size: 30px;
+	margin: 3%;
+	color: black;
+}
+.arts{
+	width: 20% !important;
+	height: 250px !important;
+	background-color: white;
+}
+.sort{
+	width: 14%;
+	height: 50px;
+	background-color: #fff;
+	margin: 1%;
+	border: 2px #09f solid;
+	color: black;
+	font-size: 23px;
+}
+.sort:hover{
+	background-color: #09f;
+	border: 2px #fff solid;
+	color: white;
+}
+#skills{
+	height: 500px;
+}
+#skills img{
+	width: 5%;
+	height: 90%;
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+	background-image: url("images/print.png");
+	background-size: cover;
+}
+#skills div{
+	width: 36%;
+	height: 90%;
+	margin-bottom: 20px;
+	position: relative;
+	display: inline-block; 
+	vertical-align: top;
+}
+#skills div h4{
+	font-size: 40px;
+	vertical-align: top;
+	position: relative;
+}
+#skills div ul li{
+	font-size: 25px;
+	margin-left: 20px;
+	margin-bottom: 15px;
+}
+.turn, .loo{
+	position: relative;
+	display: inline-block;
+	vertical-align: top;
+}
+.loo{
+	width: 25% !important;
+	height: 250px;
+}
+.lo{
+	width: 25% !important;
+	height: 250px;
+}
+.turn{
+	height: 250px;
+	width: 5%;
+	font-size: 40px;
+	margin-top: 2%;
+	background-color: rgba(0, 0, 0, 0);
+	border: none;
+}
+.left{
+	background-image: url("images/left.png");
+	background-size: cover;
+}
+.right{
+	background-image: url("images/right.png");
+	background-size: cover;
+}
+.left:hover{
+	background-image: url("images/left_hover.png");
+	background-size: cover;
+}
+.right:hover{
+	background-image: url("images/right_hover.png");
+	background-size: cover;
+}
+#game_dev p{
+	display: inline-block;
+	vertical-align: top;
+	position: relative;
+	width: 60%;
+}
+#game_dev img{
+	display: inline-block;
+	position: relative;
+	vertical-align: top;
+	width: 28% !important;
+}
+#achievs img{
+	display: inline-block;
+	position: relative;
+	vertical-align: top;
+	width: 30% !important;
+	background-color: white;
+	margin: 1.2% !important;
+}
+season:hover{
+	color: white;
+}
+season{
+	text-decoration: underline;
+}

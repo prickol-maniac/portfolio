@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Портфолио</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="RESET.css">
+	<link id="style" rel="stylesheet" type="text/css" href="style_night.css">
+	<link id="style" rel="stylesheet" type="text/css" href="phone_style.css">
+</head>
+<body onload="bg_time();">
+	<header>
+		<button onclick="bg_button1()" id="bday">Включить день</button>
+		<button onclick="bg_button2()" id="nday">Включить ночь</button>
+		<h1 style="font-size: 40px;">Капленко Алина Александровна</h1>
+		<h2>Портфолио</h2>
+	</header>
+	<div id="menu">
+		<a href="#biography"><button>Биография</button></a>
+		<a href="#skills"><button>Навыки</button></a>
+		<a href="#game_dev"><button>Game-dev</button></a>
+		<a href="#design"><button>Дизайн</button></a>
+		<a href="#achievs"><button>Достижения</button></a>
+		<a href="#contacts"><button>Контакты</button></a>
+	</div>
+	<section class="part" id="biography">
+		<h1>Биография</h1>
+		<div><img src="images/me.png" class="img_border" id="me"></div>
+		<div>
+			<p>Я, Капленко Алина Александровна, родилась 19 мая 2003 года в городе Старый Оскол. Длительное время я не могла определиться с 
+			любимым делом: одни профессии не нравились мне, другие - моей семье, на третьи не обучали у нас в округе. Осознание того, что я 
+		хочу все-таки стать программистом, пришло во время написания моей первой игры(о ней немного позже), которую мы резко захотели создать
+	с моей подругой по переписке. До этого я, в основном, занималась рисованием и немного дизайном.</p>
+			<p>Профиль: физико-математический</p>
+			<p>Любимый язык программирования: Python(с него все и началось)</p>
+			<p>Прошла курсы: "Веб-дизайнер и верстальщик сайтов" и "Программист"(4 разряд)</p>
+			<p style="display: none;">Ну и зачем ты залез в мой код? Своего что ли нет? Тикай отсюда, пока за тобой не выехали!</p>
+			<p>Любимое время года:
+				<season onclick='goSummer()' id='summer'>Лето</season>
+				<season onclick='goAutumn()' id='autumn'>Осень</season>
+				<season onclick='goWinter()' id='winter'>Зима</season>
+				<season onclick='goSpring()' id='spring'>Весна</season>
+			</p>
+		</div>
+	</section>
+	<section class="part" id="skills">
+		<h1>Навыки</h1>
+		<img src="images/print3.png">
+		<div>
+			<h4>Профессиональные:</h4>
+			<p>
+				<ul>
+					<li>Знание языков программирования C#, JavaScript, Python</li>
+					<li>Опыт работы с Front-end (html, css)</li>
+					<li>Знание основ git</li>
+					<li>Умение работать с Microsoft Office, SQL Server</li>
+					<li>Опыт работы с Adobe PhotoShop, Illustrator, After Effects</li>
+					<li>Умение работать с графическим планшетом</li>
+					<li>Знание английского языка на уровне B1 и немецкого на уровне A1</li>
+					<li>Опыт ведения социальных сетей</li>
+					<li>Имеются знания в области криптографии</li>
+				</ul>
+			</p>
+		</div>
+		<img src="images/print3.png">
+		<div>
+			<h4>Личностные:</h4>
+			<p>
+				<ul>
+					<li>Желание учиться и совершенствовать свои навыки</li>
+					<li>Высокая обучаемость</li>
+					<li>Ответственность</li>
+					<li>Способность работать как в коллективе, так и в одиночку</li>
+					<li>Хорошая память</li>
+				</ul>
+			</p>
+			<h4>Опыт работы:</h4>
+			<p>
+				<ul>
+					<li>Дизайнер в "Best Web-Design"</li>
+					<li>#ТыЖПрограммист среди семьи и друзей</li>
+				</ul>
+			</p>
+
+		</div>
+		<img src="images/print3.png" id="th">
+	</section>
+	<section class="part" id="game_dev">
+		<h1>Game development(Разработка игр)</h1>
+		<h3>With music in heart(С музыкой в сердце)</h3>
+		<img src="images/WMinH.png">
+		<p>Игра в жанре визуальная новелла, повествующая о группе друзей из музыкального кружка, которым предстоит организовать концерт с целью поиска спонсоров. Самая первая игра, поэтому довольно сумбурная и не самая продуманная.<br><br> Ссылка на скачивание</p>
+
+		<h3>Real-Unvisual!(Реально - невизуально!)</h3>
+		<img src="images/RU.png">
+		<p>Вторая полноценная новелла с большим количеством интерактива. Вы душа компании? Каждый день проводите в огромном количестве событий, и Вам это нравится? Тогда это игра не для Вас. Она для тех, кто мечтает о такой жизни. Познакомьтесь со своими друзьями: Аней, Кидой, Беттой, Лайтом, Митом и Дейвом по прозвищу Сапог. Они заменят реальных друзей (по крайней мере, они попробуют!). <br><br> Ссылка на скачивание</p>
+
+		<h3>Department of IT(Отделение информационных технологий)</h3>
+		<img src="images/DofIT.png">
+		<p>Окажитесь студентом первого курса в загадочном колледже, полном мистических происшествий и разгадайте, кто за всем этим стоит. Иллюминаты? Масоны? Заведующая? Или у тебя просто бурное воображение? Как бы не так!<br><br> Ссылка на скачивание</p>
+
+	</section>
+	<!-- сделать блоки -->
+	<section class="part" id="design">
+		<h1>Дизайн</h1>
+		<h3>Арты</h3>
+		<p>Здесь Вы можете увидеть мои работы, выполненные в различных техниках. Воспользуйтесь кнопками, чтобы отсортировать их по категориям.</p>
+		<button class="sort al" style="margin-left: 2%;" onclick="sort_all()">Все</button>
+		<button class="sort dig" onclick="sort_digital()">Диджитал</button>
+		<button class="sort tr" onclick="sort_trad()">Традиционные</button>
+		<button class="sort sk" onclick="sort_sketch()">Скетч</button>
+		<button class="sort tex" onclick="sort_texture()">Текстуры</button>
+		<button class="sort ph" onclick="sort_photo()">Фотоарт</button>
+		<img src="images/arts/1.png" class="img_border arts digital">
+		<img src="images/arts/2.png" class="img_border arts digital">
+		<img src="images/arts/3.png" class="img_border arts digital texture">
+		<img src="images/arts/4.png" class="img_border arts digital">
+		<img src="images/arts/5.png" class="img_border arts digital">
+		<img src="images/arts/6.png" class="img_border arts digital texture">
+		<img src="images/arts/s2.png" class="img_border arts sketch">
+		<img src="images/arts/7.png" class="img_border arts digital">
+		<img src="images/arts/t3.jpg" class="img_border arts trad">
+		<img src="images/arts/8.png" class="img_border arts digital texture">
+		<img src="images/arts/9.png" class="img_border arts digital">
+		<img src="images/arts/t5.jpg" class="img_border arts trad">
+		<img src="images/arts/10.png" class="img_border arts digital">
+		<img src="images/arts/11.png" class="img_border arts digital">
+		<img src="images/arts/12.png" class="img_border arts digital">
+		<img src="images/arts/t2.jpg" class="img_border arts trad">
+		<img src="images/arts/s5.png" class="img_border arts sketch">
+		<img src="images/arts/13.png" class="img_border arts digital">
+		<img src="images/arts/14.png" class="img_border arts digital">
+		<img src="images/arts/t6.jpg" class="img_border arts trad">
+		<img src="images/arts/15.png" class="img_border arts digital">
+		<img src="images/arts/16.png" class="img_border arts digital photo">
+		<img src="images/arts/17.png" class="img_border arts digital">
+		<img src="images/arts/t10.jpg" class="img_border arts trad">
+		<img src="images/arts/18.png" class="img_border arts digital">
+		<img src="images/arts/s3.png" class="img_border arts sketch">
+		<img src="images/arts/t4.jpg" class="img_border arts trad">
+		<img src="images/arts/19.png" class="img_border arts digital">
+		<img src="images/arts/s4.png" class="img_border arts sketch">
+		<img src="images/arts/20.png" class="img_border arts digital photo">
+		<img src="images/arts/21.png" class="img_border arts digital">
+		<img src="images/arts/t7.jpg" class="img_border arts trad">
+		<img src="images/arts/22.png" class="img_border arts digital">
+		<img src="images/arts/23.png" class="img_border arts digital">
+		<img src="images/arts/t9.jpg" class="img_border arts trad">
+		<img src="images/arts/24.png" class="img_border arts digital">
+		<img src="images/arts/25.png" class="img_border arts digital">
+		<img src="images/arts/26.png" class="img_border arts digital">
+		<img src="images/arts/t8.jpg" class="img_border arts trad">
+		<img src="images/arts/27.jpg" class="img_border arts digital">
+		<img src="images/arts/28.png" class="img_border arts digital">
+		<img src="images/arts/29.png" class="img_border arts digital">
+		<img src="images/arts/t1.jpg" class="img_border arts trad">
+		<img src="images/arts/30.png" class="img_border arts digital photo">
+		<img src="images/arts/t11.jpg" class="img_border arts trad">
+		<img src="images/arts/31.png" class="img_border arts digital photo">
+		<img src="images/arts/32.png" class="img_border arts digital">
+		<img src="images/arts/s1.png" class="img_border arts sketch">		
+		
+		<h3>Стикерпак для Telegram "NEM the Monster"</h3>
+		<p>Первый стикерпак, идеей для которого послужил мой маскот - Монстр по имени Нэм. Он появился благодаря моей любимой песне - "The Monster" - Eminem, Rihanna (имя - отсылка на Эминема). Скетчи были сделаны на бумаге, а конечный вариант выполнен в приложении Adobe Illustrator.</p>
+		<p>Установить стикерпак можно по <a href="https://t.me/addstickers/nemthemonster">этой ссылке</a></p>
+		<button id="btn_left" class="turn left" onclick="loopw()"></button>
+		<div class="sticker lo"><img src="images/nem/1.png"></div>
+		<div class="sticker lo"><img src="images/nem/2.png"></div>
+		<div class="sticker lo"><img src="images/nem/3.png"></div>
+		<div class="sticker lo"><img src="images/nem/4.png"></div>
+		<div class="sticker lo"><img src="images/nem/5.png"></div>
+		<div class="sticker lo"><img src="images/nem/6.png"></div>
+		<div class="sticker lo"><img src="images/nem/7.png"></div>
+		<div class="sticker lo"><img src="images/nem/8.png"></div>
+		<div class="sticker lo"><img src="images/nem/9.png"></div>
+		<div class="sticker lo"><img src="images/nem/10.png"></div>
+		<div class="sticker lo"><img src="images/nem/11.png"></div>
+		<div class="sticker lo"><img src="images/nem/12.png"></div>
+		<button id="btn_right" class="turn right" onclick="loope()"></button>
+
+		<h3>Стикерпак для Telegram "Maniac & Company"</h3>
+		<p>Стикерпак был придуман в компании моих друзей на основе поведения и привычек каждого из нас. Скетчи были сделаны в растровом формате в приложении Paint tool sai 2, а потом оформлены в Adobe Illustrator.</p>
+		<p>Установить стикерпак можно по <a href="https://t.me/addstickers/beloukrainia">этой ссылке</a></p>
+		<button id="btn_left" class="turn left" onclick="loopn()"></button>
+		<div class="sticker loo"><img src="images/bur/1.png"></div>
+		<div class="sticker loo"><img src="images/bur/2.png"></div>
+		<div class="sticker loo"><img src="images/bur/3.png"></div>
+		<div class="sticker loo"><img src="images/bur/4.png"></div>
+		<div class="sticker loo"><img src="images/bur/5.png"></div>
+		<div class="sticker loo"><img src="images/bur/6.png"></div>
+		<div class="sticker loo"><img src="images/bur/7.png"></div>
+		<div class="sticker loo"><img src="images/bur/8.png"></div>
+		<div class="sticker loo"><img src="images/bur/9.png"></div>
+		<div class="sticker loo"><img src="images/bur/10.png"></div>
+		<div class="sticker loo"><img src="images/bur/11.png"></div>
+		<div class="sticker loo"><img src="images/bur/12.png"></div>
+		<button id="btn_right" class="turn right" onclick="loops()"></button>	
+
+		<h3>Работы в PhotoShop</h3>
+		<p>Здесь собраны некоторые работы с изображениями, выполненные в приложении Adobe PhotoShop.</p>
+		<img src="images/ps/1.png" class="img_border arts">	
+		<img src="images/ps/2.png" class="img_border arts">	
+		<img src="images/ps/3.png" class="img_border arts">	
+		<img src="images/ps/4.png" class="img_border arts">	
+		<img src="images/ps/5.png" class="img_border arts">	
+		<img src="images/ps/6.png" class="img_border arts">	
+		<img src="images/ps/7.png" class="img_border arts">	
+		<img src="images/ps/8.png" class="img_border arts">	
+		<img src="images/ps/9.png" class="img_border arts">	
+		<img src="images/ps/10.png" class="img_border arts">	
+		<img src="images/ps/11.png" class="img_border arts">	
+		<img src="images/ps/12.png" class="img_border arts">	
+		<img src="images/ps/13.png" class="img_border arts">	
+		<img src="images/ps/14.png" class="img_border arts">	
+		<img src="images/ps/15.png" class="img_border arts">	
+		<img src="images/ps/16.png" class="img_border arts">	
+	</section>
+	<section class="part" id="achievs">
+		<h1>Достижения</h1>
+		<img src="images/dip1.png" class="img_border">
+		<img src="images/dip2.png" class="img_border">
+		<img src="images/dip3.png" class="img_border">
+	</section>
+	<section class="part" id="contacts">
+		<h1>Контакты</h1>
+		<div style="padding: 1% 3%;">
+		<img src="images/bur/8.png" style="width: 70%; vertical-align: top;">
+	</div>
+		<div>
+		<p style="vertical-align: middle;">Связаться со мной можно через личные сообщения ВКонтакте:</p>
+		<a href="https://vk.com/prickol_maniac"><p>Нажмите сюда!</p></a>
+		<br>
+		<p>Данный сайт создан с ознакомительной целью и не преследует никаких коммерческих целей.</p>
+		<p>Alina Maniac 2022</p>
+	</div>
+	</section>
+</body>
+<script type="text/javascript">
+	const digs = document.getElementsByClassName('digital');
+	const trads = document.getElementsByClassName('trad');
+	const skets = document.getElementsByClassName('sketch');
+	const texs = document.getElementsByClassName('texture');
+	const phots = document.getElementsByClassName('photo');
+	const btn_dig = document.getElementByClassName('dig');
+	const btn_tr = document.getElementByClassName('tr');
+	const btn_tex = document.getElementByClassName('tex');
+	const btn_ph = document.getElementByClassName('ph');
+	const btn_all = document.getElementByClassName('al');
+
+	function sort_all() {
+		for (var i = 0; i < digs.length; i++) {
+			digs[i].style.display = 'inline-block';
+		}
+		for (var i = 0; i < skets.length; i++) {
+			skets[i].style.display = 'inline-block';
+		}
+		for (var i = 0; i < texs.length; i++) {
+			texs[i].style.display = 'inline-block';
+		}
+		for (var i = 0; i < phots.length; i++) {
+			phots[i].style.display = 'inline-block';
+		}
+		for (var i = 0; i < trads.length; i++) {
+			trads[i].style.display = 'inline-block';
+		}
+
+	}
+	function sort_trad() {
+		/*document.getElementsById('digital').style.display = 'none';*/
+		for (var i = 0; i < digs.length; i++) {
+			digs[i].style.display = 'none';
+		}
+		for (var i = 0; i < skets.length; i++) {
+			skets[i].style.display = 'none';
+		}
+		for (var i = 0; i < texs.length; i++) {
+			texs[i].style.display = 'none';
+		}
+		for (var i = 0; i < phots.length; i++) {
+			phots[i].style.display = 'none';
+		}
+		for (var i = 0; i < trads.length; i++) {
+			trads[i].style.display = 'inline-block';
+		}
+	}
+	function sort_digital() {
+		for (var i = 0; i < skets.length; i++) {
+			skets[i].style.display = 'none';
+		}
+		for (var i = 0; i < texs.length; i++) {
+			texs[i].style.display = 'none';
+		}
+		for (var i = 0; i < phots.length; i++) {
+			phots[i].style.display = 'none';
+		}
+		for (var i = 0; i < trads.length; i++) {
+			trads[i].style.display = 'none';
+		}
+		for (var i = 0; i < digs.length; i++) {
+			digs[i].style.display = 'inline-block';
+		}
+	}
+	function sort_sketch() {
+		for (var i = 0; i < digs.length; i++) {
+			digs[i].style.display = 'none';
+		}	
+		for (var i = 0; i < texs.length; i++) {
+			texs[i].style.display = 'none';
+		}
+		for (var i = 0; i < phots.length; i++) {
+			phots[i].style.display = 'none';
+		}
+		for (var i = 0; i < trads.length; i++) {
+			trads[i].style.display = 'none';
+		}
+		for (var i = 0; i < skets.length; i++) {
+					skets[i].style.display = 'inline-block';
+				}
+	}
+	function sort_texture() {
+		for (var i = 0; i < digs.length; i++) {
+			digs[i].style.display = 'none';
+		}			
+		for (var i = 0; i < phots.length; i++) {
+			phots[i].style.display = 'none';
+		}
+		for (var i = 0; i < trads.length; i++) {
+			trads[i].style.display = 'none';
+		}
+		for (var i = 0; i < skets.length; i++) {
+					skets[i].style.display = 'none';
+		}
+		for (var i = 0; i < texs.length; i++) {
+			texs[i].style.display = 'inline-block';
+		}
+	}
+	function sort_photo() {
+		for (var i = 0; i < digs.length; i++) {
+			digs[i].style.display = 'none';
+		}	
+		for (var i = 0; i < texs.length; i++) {
+			texs[i].style.display = 'none';
+		}	
+		for (var i = 0; i < trads.length; i++) {
+			trads[i].style.display = 'none';
+		}
+		for (var i = 0; i < skets.length; i++) {
+					skets[i].style.display = 'none';
+		}
+		for (var i = 0; i < phots.length; i++) {
+			phots[i].style.display = 'inline-block';
+		}
+	}
+
+	function bg_time() {
+		var now = new Date().toLocaleTimeString().slice(0, -6);
+		if (now > 7 && now < 21){ 
+			document.getElementById('style').href = 'style_day.css'; 		
+		}
+		else{
+			document.getElementById('style').href = 'style_night.css';			
+		}
+		var vr = new Date();
+		if (vr.getMonth()==11 || vr.getMonth()==0 || vr.getMonth()==1){
+			document.getElementById('winter').style.display='none';
+			document.getElementById('summer').style.display='none';
+			document.getElementById('autumn').style.display='none';
+			document.getElementById('spring').style.display='inline-block';
+			document.getElementById('me').src = "images/winter.png"	
+		}
+		if (vr.getMonth()==2 || vr.getMonth()==3 || vr.getMonth()==4){
+			document.getElementById('winter').style.display='none';
+			document.getElementById('autumn').style.display='none';
+			document.getElementById('spring').style.display='none';
+			document.getElementById('summer').style.display='inline-block';
+			document.getElementById('me').src = "images/spring.png"
+		}
+		if (vr.getMonth()==5 || vr.getMonth()==6 || vr.getMonth()==7){
+			document.getElementById('winter').style.display='none';
+			document.getElementById('summer').style.display='none';
+			document.getElementById('spring').style.display='none';
+			document.getElementById('autumn').style.display='inline-block';
+			document.getElementById('me').src = "images/summer.png"
+		}
+		if (vr.getMonth()==8 || vr.getMonth()==9 || vr.getMonth()==10){
+			document.getElementById('autumn').style.display='none';
+			document.getElementById('summer').style.display='none';
+			document.getElementById('spring').style.display='none';
+			document.getElementById('winter').style.display='inline-block';
+			document.getElementById('me').src = "images/autumn.png"
+		}
+
+	}
+	function bg_button1() {
+		document.getElementById('style').href = 'style_day.css';
+		/*document.body.style.backgroundImage='url("images/bg_day.png")';
+		document.getElementById('bday').style.display = "none";
+		document.getElementById('nday').style.display = "inline-block";*/
+	}
+	function bg_button2() {
+		document.getElementById('style').href = 'style_night.css';
+		/*document.body.style.backgroundImage='url("images/bg_night.png")';
+		document.getElementById('nday').style.display = "none";
+		document.getElementById('bday').style.display = "inline-block";*/
+	}
+	
+</script>
+<script type="text/javascript" src="l.js"></script>
+</html>
